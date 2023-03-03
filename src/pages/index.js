@@ -7,6 +7,7 @@ import {
   Intro,
   Resources,
   QuickStart,
+  GSoC,
 } from "../components";
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       >
         <main className="mx-auto max-w-screen-lg p-6 md:p-10">
           <QuickStart />
-          {/*<Hacktoberfest />*/}
+          <GSoC/>
           <Intro />
           <Resources />
           <Community />

@@ -90,6 +90,11 @@ module.exports = {
           activeBasePath: "(/docs/devtools)",
           label: "Contribution",
         }, 
+        {
+          to: "/docs/gsoc/contribution-guide/",
+          activeBasePath: "(/docs/gsoc)",
+          label: "GSoC",
+        },
         // {
         //   to: "/docs/hacktoberfest/contribution-guide/",
         //   activeBasePath: "(/docs/hacktoberfest)",
